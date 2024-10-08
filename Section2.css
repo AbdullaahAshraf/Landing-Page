@@ -1,0 +1,53 @@
+.section2 {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-end; /* Align items to the right */
+    padding: 40px; /* You can adjust this padding if needed */
+    margin-top: 00px; /* Adjust if you want more space from the previous section */
+}
+
+.section2-content {
+    width: 539.37px; /* Set the specified width */
+    height: 300px; /* Set the specified height */
+    position: relative;
+    top: 0; /* Set to 0 to align with the top */
+    right: 50px; /* Align with the right */
+    gap: 0px; /* Set gap if necessary */
+    opacity: 1; /* Set opacity to 1 to make it visible */
+}
+
+.section2-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 400; /* Change to 500 */
+    line-height: 48px; /* Set line height */
+    text-align: left; /* Align text to the left */
+    color: #1E2A38; /* Ensure this color is kept */
+    margin-bottom: 20px;
+}
+
+
+.section2-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5A6675;
+    margin-bottom: 30px;
+}
+
+
+.section2-image {
+    flex: 1; /* Allow the image to grow to fill the available space */
+    position: relative; /* Keep relative positioning */
+    padding-right: 500px;
+
+
+ 
+}
+
+.section2-image img {
+    width: 400%; /* Adjust the width of the image */
+    max-width: 400px; /* Set a max-width */
+    height: auto; /* Maintain aspect ratio */
+  /* Keep the image below the content */
+}

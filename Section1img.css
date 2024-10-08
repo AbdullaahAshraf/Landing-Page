@@ -1,0 +1,16 @@
+.section1-image {
+    flex: 1; /* Allow the image to grow to fill the available space */
+    position: relative; /* Keep relative positioning */
+    padding-left: 550px;
+    padding-top: 50px;
+   
+
+ 
+}
+
+.section1-image img {
+    width: 400%; /* Adjust the width of the image */
+    max-width: 400px; /* Set a max-width */
+    height: auto; /* Maintain aspect ratio */
+  /* Keep the image below the content */
+}

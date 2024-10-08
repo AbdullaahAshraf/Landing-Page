@@ -1,0 +1,77 @@
+/* src/components/Hero.css */
+.hero {
+    display: flex; /* Use flexbox to arrange children */
+    align-items: flex-start; /* Align items at the start of the flex container */
+    justify-content: space-between; /* Space between content and image */
+    padding: 40px; /* You can adjust this padding if needed */
+ 
+}
+
+.hero-content {
+    width: 539.37px; /* Keep your existing styles */
+    height: 421px; /* Keep your existing styles */
+    position: relative; /* Maintain relative positioning */
+    top: 200px; /* Adjust vertical positioning if needed */
+    left: 163.12px; /* Adjust horizontal positioning if needed */
+    opacity: 1; /* Set opacity to 1 to make it visible */
+    z-index: 1; /* Ensure content is above the image */
+}
+
+.hero-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #1E2A38;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5A6675;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px; /* Add space between buttons */
+}
+
+.primary-btn {
+    background-color: #37447E; /* Button color */
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: #37447E;
+    border: 2px solid #37447E;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1; /* Allow the image to grow to fill the available space */
+    position: relative; /* Keep relative positioning */
+    margin-top: 60px;
+
+    padding-left: 400px;
+}
+
+.hero-image img {
+    width: 400%; /* Adjust the width of the image */
+    max-width: 400px; /* Set a max-width */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 0; /* Keep the image below the content */
+}

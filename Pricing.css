@@ -1,0 +1,70 @@
+.pricing-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 20px; /* Adjust padding as needed */
+}
+
+/* Styling for the h1 element */
+.pricing-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    color: #091133; /* Background color for text */
+    margin-bottom: 20px; /* Spacing below heading */
+}
+
+/* Styling for the paragraph */
+.pricing-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #6F7CB2; /* Background color for text */
+    margin-bottom: 40px; /* Spacing below paragraph */
+}
+
+/* Styling for the price text */
+.pricing-content .price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #222F65; /* Background color for text */
+    margin-bottom: 10px; /* Spacing below price */
+}
+
+/* Styling for the price description */
+.pricing-content .price-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #37447E; /* Background color for text */
+    margin-bottom: 40px; /* Spacing below description */
+}
+
+/* Styling for the button */
+.pricing-content .purchasebtn .PurchaseNow {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    background-color: #111B47; /* Background color for button */
+    color: #FFF; /* Text color for button */
+    padding: 12px 30px; /* Adjust padding as needed */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-content .purchasebtn .PurchaseNow:hover {
+    background-color: #0D163C; /* Darken button on hover */
+}
